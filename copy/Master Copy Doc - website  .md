@@ -32,7 +32,7 @@
 * Image Overlay Copy: Build for the future  
 * Heading: Genesis & Scale  
 * Body Copy: Choose your path: Genesis for emerging builders validating new ideas, or Scale for experienced teams turning proven concepts into production-ready solutions with ecosystem impact.  
-* Hyperlink Text:: TBA 
+* Hyperlink Text:: Apply
 * **Hyperlink URL:** TBA
 
 
@@ -41,7 +41,7 @@
 * **Image Overlay Copy:** Build in the heart of Lisbon  
 * **Heading:** A Creative District by the River  
 * **Body Copy:** Set in a former railway warehouse in Marvila, the venue sits among galleries, restaurants, craft breweries, and Lisbon’s vibrant riverside creative scene.  
-* Hyperlink Text:: TBA 
+* Hyperlink Text:: View
 * **Hyperlink URL:** https://www.oneyourfirststop.com/
 
 ### 1.4 CARD 03 — AHEAD OF MERIDIAN
@@ -49,7 +49,7 @@
 * **Image Overlay Copy:** **NEXT STOP: MERIDIAN**  
 * **Heading:** **Take It Further at Meridian**  
 * **Body Copy:** Join developers, builders, innovators, and industry leaders shaping the future of global finance. HackMeridian participants can access discounted Developer tickets to Meridian.  
-* Hyperlink Text:: TBA 
+* Hyperlink Text:: Explore 
 * **Hyperlink URL:** https://meridian.stellar.org/
 
 
