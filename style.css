@@ -58,7 +58,9 @@ a {
 
 .nav__logo {
   height: 32px;
-  width: auto;
+  width: 180px;
+  object-fit: contain;
+  object-position: left center;
 }
 
 /* ── Hero ── */
