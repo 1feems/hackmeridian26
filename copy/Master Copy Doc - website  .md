@@ -21,10 +21,14 @@
 
 **1.1 HERO**
 
-* **Short Label:** HACKMERIDIAN 2026  
-* **Hero Headline:** Build something worth shipping.  
-* **Hero Subcopy:** Join talented builders from across the Stellar ecosystem to build real-world solutions on the Stellar network over two days in Lisbon.  
-* **Primary CTA:** Apply to Hack
+### 1.1 HERO
+
+- **Short Label:** HACKMERIDIAN 2026
+- **Hero Headline:** Build something worth shipping.
+- **Hero Subcopy:** Join talented builders from across the Stellar ecosystem to build real-world solutions on the Stellar network over two days in Lisbon.
+- **Event Date / Location:** October 25–26, 2026 · Lisbon, Portugal
+- * Hyperlink Text:: Apply to Hack
+- **Primary CTA:** TBA
 
 
 **1.2 CARD 01 :WHO IT'S FOR**
