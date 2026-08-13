@@ -297,6 +297,66 @@ details[open] .faq__question::after {
   padding: 0 0 20px;
 }
 
+/* ── Footer ── */
+.footer {
+  background: var(--color-primary);
+  padding: var(--section-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer__logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__logo {
+  height: 40px;
+  width: auto;
+}
+
+/* Footer bar — activates when placeholder is filled in */
+.footer__bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer__social-label {
+  font-weight: 400;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer__links a {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-ink);
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+}
+
 /* ── Responsive ── */
 @media (max-width: 1024px) {
   :root {
