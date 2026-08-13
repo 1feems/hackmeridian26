@@ -30,7 +30,7 @@
 **1.2 CARD 01 :WHO IT'S FOR**
 
 * Image Overlay Copy: Build for the future  
-* Heading: Genesis & Scale  
+* Heading: Choose Your Path 
 * Body Copy: Choose your path: Genesis for emerging builders validating new ideas, or Scale for experienced teams turning proven concepts into production-ready solutions with ecosystem impact.  
 * Hyperlink Text:: Apply
 * **Hyperlink URL:** TBA
