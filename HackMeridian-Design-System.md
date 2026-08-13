@@ -215,9 +215,24 @@ The logo is an uploaded image asset. It must not be recreated as text.
 
 ```yaml
 logo:
-  src: "/assets/hackmeridian-logo.[FILETYPE]"
+  src: "/assets/logomer.svg"
   alt: "[EDITABLE ALT TEXT]"
 ```
+
+### Logo sizing
+
+The logo container is fixed so swapping the image asset does not affect layout.
+
+```css
+.nav__logo {
+  height: 32px;
+  width: 180px;
+  object-fit: contain;
+  object-position: left center;
+}
+```
+
+Do not remove the fixed width and height. Replace only the image `src` when updating the logo.
 
 ---
 
@@ -713,11 +728,12 @@ The GitHub project should contain an assets directory.
 
 ```text
 /assets
-├── hackmeridian-logo.[FILETYPE]
-├── hackmeridian-hero.[FILETYPE]
-├── card-01.[FILETYPE]
-├── card-02.[FILETYPE]
-└── card-03.[FILETYPE]
+├── logomer.svg               — HackMeridian nav logo
+├── stellar-logo-black.svg    — Stellar footer logo (black)
+├── Hero - image.png          — Hero artwork (right column)
+├── card 1.png                — Card 01 image
+├── card2.png                 — Card 02 image
+└── card 3 .png               — Card 03 image
 ```
 
 Actual filenames may change when assets are uploaded.
@@ -756,6 +772,70 @@ links:
 URLs are intentionally empty until destinations are available.
 
 Do not invent URLs.
+
+All links must open in a new tab.
+
+```html
+target="_blank" rel="noopener noreferrer"
+```
+
+This applies to all `<a>` elements including the hero CTA, card links, and footer links.
+
+---
+
+## Homepage Footer
+
+The footer sits below the FAQ on a Generous Gold `#FDDA24` background, matching the hero.
+
+### Footer layout
+
+```css
+background: #FDDA24;
+padding: 32px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+```
+
+### Footer logo
+
+The Stellar Development Foundation logo (black version) is centered in the footer.
+
+```yaml
+footerLogo:
+  src: "/assets/stellar-logo-black.svg"
+  alt: "Stellar Development Foundation"
+```
+
+### Footer logo sizing
+
+The logo container is fixed so swapping the image asset does not affect layout.
+
+```css
+.footer__logo {
+  height: 40px;
+  width: 200px;
+  object-fit: contain;
+  object-position: center;
+}
+```
+
+### Footer nav bar
+
+The footer nav bar is a placeholder for future content. It will contain:
+
+- Left: "Follow us:" label with social icons (Discord, LinkedIn, X, YouTube)
+- Right: Legal links (Brand Policy, Privacy Policy, Terms of Service, Addendum, Cookie Settings)
+
+The structure is in `index.html` as a comment. Uncomment and fill in when ready.
+
+### Footer assets
+
+```text
+/assets
+└── stellar-logo-black.svg
+```
 
 ---
 

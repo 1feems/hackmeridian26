@@ -317,7 +317,9 @@ details[open] .faq__question::after {
 
 .footer__logo {
   height: 40px;
-  width: auto;
+  width: 200px;
+  object-fit: contain;
+  object-position: center;
 }
 
 /* Footer bar — activates when placeholder is filled in */
