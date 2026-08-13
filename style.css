@@ -53,7 +53,7 @@ a {
   align-items: center;
   justify-content: space-between;
   background: var(--color-surface);
-  padding: 32px;
+  padding: 8px 32px;
 }
 
 .nav__logo {
