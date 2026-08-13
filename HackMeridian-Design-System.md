@@ -1,7 +1,26 @@
 # HackMeridian — Design System
 
-Last updated: [DATE]
+Last updated: 2026-08-13
 Status: Active — Homepage landing page
+
+---
+
+## Copy Limitations
+
+All copy must stay within these limits to protect the layout at all breakpoints.
+
+| Content Type | Limitation |
+|---|---|
+| Short Label / Eyebrow | Max 30 characters, max 4 words, 1 line |
+| Headline / Heading | Max 60 characters, max 8 words, max 3 lines desktop / 4 mobile |
+| Subcopy / Body Copy | 20–30 words, max 180 characters, max 4 lines desktop / 6 mobile |
+| Image Overlay Copy | Max 40 characters, max 2 lines, recommended 2–5 words |
+| CTA / Button | Max 30 characters, max 4 words, 1 line |
+| Text Link | Optional. Max 30 characters, max 4 words, 1 line |
+| FAQ Question | Max 100 characters, max 15 words, ideally 1–2 lines |
+| FAQ Answer | Max 300 characters, max 50 words, ideally 3–5 lines |
+
+Source of truth for copy content: `copy/Master Copy Doc - website .md`
 
 ---
 
@@ -571,6 +590,68 @@ tablet:
 mobile:
   --card-padding: 16px;
 ```
+
+---
+
+## Homepage FAQ
+
+The FAQ section sits below the cards on a white background. It uses a section heading and a list of expandable accordion items.
+
+### FAQ Layout
+
+```css
+background: #FFFFFF;
+padding: var(--section-padding);
+max-width: 800px;
+margin: 0 auto;
+```
+
+### FAQ Heading
+
+- Typography role: Subheadline (Inter Tight, weight 300)
+- Editable text.
+
+### FAQ Item Structure
+
+```text
+┌──────────────────────────────────────────────┐
+│  QUESTION TEXT                            ▾  │
+├──────────────────────────────────────────────┤
+│  Answer text — visible when expanded.        │
+└──────────────────────────────────────────────┘
+```
+
+Each FAQ item:
+- Question acts as the toggle trigger.
+- Answer is hidden by default, revealed on click.
+- Click again to collapse.
+- Uses the native HTML `<details>` and `<summary>` elements.
+
+### FAQ Design Tokens
+
+```css
+--faq-border: 1px solid #B2B2B2;
+--faq-padding: 20px 0;
+--faq-answer-padding: 12px 0 20px;
+```
+
+### Adding a Question
+
+To add a new FAQ item, copy one `<details>` block in `index.html` and update the question and answer text. No layout or style changes required.
+
+### FAQ Content Limitations
+
+#### Question
+- Editable text.
+- Maximum 100 characters.
+- Maximum 15 words.
+- Ideally 1–2 lines.
+
+#### Answer
+- Editable text.
+- Maximum 300 characters.
+- Maximum 50 words.
+- Ideally 3–5 lines.
 
 ---
 
