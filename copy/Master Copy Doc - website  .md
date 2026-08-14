@@ -33,18 +33,24 @@
 
 **1.2 CARD 01 :WHO IT'S FOR**
 
-* Image Overlay Copy: Build for the future  
+* Image Overlay Copy: Find Your Track  
 * Heading: Choose Your Path 
 * Body Copy: Choose your path: Genesis for emerging builders validating new ideas, or Scale for experienced teams turning proven concepts into production-ready solutions with ecosystem impact.  
 * Hyperlink Text:: Apply
 * **Hyperlink URL:** TBA
 
+  Image Overlay Copy: 
+Heading: 
+Body Copy: We’re offering two ways to participate: Genesis for first-time founders and emerging builders with new ideas or early prototypes, and Scale for experienced teams with existing products or advanced prototypes.
+Hyperlink Text: Explore the Tracks
+Hyperlink URL: TBA
+
 
 1.3 CARD 02 — WHERE IT IS
 
 * **Image Overlay Copy:** Build in the heart of Lisbon  
-* **Heading:** A Creative District by the River  
-* **Body Copy:** Set in a former railway warehouse in Marvila, the venue sits among galleries, restaurants, craft breweries, and Lisbon’s vibrant riverside creative scene.  
+* **Heading:** Build in the heart of Lisbon  
+* **Body Copy:** HackMeridian takes over a former railway warehouse in Lisbon’s creative district, surrounded by galleries, restaurants, craft breweries, and the riverside.
 * Hyperlink Text:: View
 * **Hyperlink URL:** https://www.oneyourfirststop.com/
 
