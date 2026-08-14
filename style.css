@@ -83,10 +83,11 @@ a {
 }
 
 .hero__headline {
-  font-weight: 300;
+  font-weight: 700;
   font-size: clamp(40px, 5vw, 72px);
   line-height: 0.9;
   margin-bottom: 24px;
+  color: var(--color-secondary);
 }
 
 .hero__description {
