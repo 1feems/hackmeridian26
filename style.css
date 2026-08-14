@@ -87,7 +87,7 @@ a {
   font-size: clamp(40px, 5vw, 72px);
   line-height: 0.9;
   margin-bottom: 24px;
-  color: var(--color-secondary);
+  color: var(--color-river);
 }
 
 .hero__description {
