@@ -57,7 +57,7 @@ Hyperlink URL: TBA
 ### 1.4 CARD 03 — AHEAD OF MERIDIAN
 
 * **Image Overlay Copy:** **NEXT STOP: MERIDIAN**  
-* **Heading:** **Take It Further at Meridian**  
+* **Heading:** **Continue Beyond the Build**  
 * **Body Copy:** Join developers, builders, innovators, and industry leaders shaping the future of global finance. HackMeridian participants can access discounted Developer tickets to Meridian.  
 * Hyperlink Text:: Explore 
 * **Hyperlink URL:** https://meridian.stellar.org/
